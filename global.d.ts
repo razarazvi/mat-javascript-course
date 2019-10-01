@@ -3,9 +3,9 @@
 
 declare namespace myLib { 
 
-    
+
 // Our global 'product' type/interface
-interface product {
+interface Product {
     //must have name
     name: string;
     // must have description

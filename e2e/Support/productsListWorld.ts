@@ -3,6 +3,6 @@ import {World} from "cucumber";
 
 declare module "cucumber" {
     interface World {
-        product: myLib.product;
+        product: myLib.Product;
 }
 }
