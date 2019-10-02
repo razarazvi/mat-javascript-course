@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rimraf e2ejs",
-    "clean-build": "npm run && npm run build",
+    "clean-build": "npm run clean && npm run build",
     "test": "protractor ./e2ejs/protractor.conf.js"
   },
   "repository": {
